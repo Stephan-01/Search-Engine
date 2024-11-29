@@ -1,25 +1,23 @@
 
-markdown
-Code kopieren
-# PDF Suchmaschine
+# PDF Search Engine
 
-Dieses Projekt bietet eine grafische Benutzeroberfläche (GUI) zur Durchsuchung von PDF-Dokumenten. Die Anwendung nutzt moderne Tools wie **PyTerrier**, **spaCy** und **PyPDF2**, um eine effiziente Suche zu ermöglichen.
+This project provides a graphical user interface (GUI) for searching PDF documents. The application uses modern tools like PyTerrier, spaCy, and PyPDF2 to enable efficient search functionality.
 
-## Funktionen
+## Features
 
-- **PDF-Text-Extraktion**  
-  Text wird aus PDF-Dokumenten extrahiert und zur Indexierung aufbereitet.
+### PDF Text Extraction
+Text is extracted from PDF documents and prepared for indexing.
 
-- **Indexierung**  
-  Die PDFs werden mit PyTerrier in einem BM25-Index gespeichert.
+### Indexing
+PDFs are stored in a BM25 index using PyTerrier.
 
-- **Schnelle Suche**  
-  Benutzer können eine Sucheingabe in der GUI machen, und die besten Ergebnisse werden aufgelistet.
+### Fast Search
+Users can input a search query through the GUI, and the best results will be listed.
 
-- **Suchoptimierung:**  
-  Bereinigt die Suchanfragen von Stoppwörtern und Sonderzeichen. (unter Verwendung von spaCy).
+### Search Optimization
+Search queries are cleaned of stopwords and special characters using spaCy.
 
-- **Benutzerfreundliche Oberfläche**  
-  Die intuitive GUI ermöglicht eine einfache Nutzung.
+### User-Friendly Interface
+The intuitive GUI ensures ease of use.
 
 ![GUI](fig1.PNG)
