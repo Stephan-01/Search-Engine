@@ -16,7 +16,7 @@ def prepare_corpus(pdf_folder):
 
 def index_documents(pdf_folder):
     """Indexiert die Dokumente und gibt den Index zurück."""
-    # Pfad zum Index-Verzeichnis (absolut)
+
     index_path = os.path.join(os.getcwd(), "pdf_index")
 
     # Sicherstellen, dass der Index-Ordner existiert

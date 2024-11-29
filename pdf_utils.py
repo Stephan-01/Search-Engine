@@ -1,6 +1,6 @@
 import PyPDF2
 
-# Selbsterklärend
+
 def extract_text_from_pdf(file_path):
     """Extrahiert Text aus einer PDF-Datei."""
     text = ""
